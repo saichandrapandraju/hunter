@@ -11,6 +11,8 @@ while(q==0):
         print l,
         new.insert(w,l)
         w+=1
+    elif(list==new):
+        print("unique")
     else:
         q=0
     if(list==[]):
