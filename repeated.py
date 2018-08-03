@@ -8,7 +8,7 @@ while(q==0):
     l=list[q]
     list.remove(list[0])
     if((l in list)and(l not in new)):
-        print(l,end=" ")
+        print l,
         new.insert(w,l)
         w+=1
     else:
