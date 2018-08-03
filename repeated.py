@@ -1,9 +1,9 @@
-a=input()
+a=raw_input()
 c=len(a)
 q=0
 w=0
 new=[]
-list=[int(x) for x in input().split()]
+list=[int(x) for x in raw_input().split()]
 while(q==0):
     l=list[q]
     list.remove(list[0])
