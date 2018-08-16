@@ -4,7 +4,6 @@ list=[int(x) for x in raw_input().split()]
 for i in range(0,n):
 	if(i==list[i]):
 		new.append(i)
-		#print(new)
 	elif((new==[]) and (i==(n-1))):
 		print('-1')
 s=sorted(new)
