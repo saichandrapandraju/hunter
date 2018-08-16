@@ -1,5 +1,4 @@
 a=raw_input()
-c=len(a)
 q=0
 w=0
 new=[]
@@ -11,9 +10,7 @@ while(q==0):
         print l,
         new.insert(w,l)
         w+=1
-    elif((list==new)and(l not in new)):
+    elif((new==[])and(list==[])):
         print('unique')
-    else:
-        q=0
     if(list==[]):
         break
